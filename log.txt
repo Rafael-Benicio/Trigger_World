@@ -1,0 +1,430 @@
+Sun Jun 26 18:27:05 2022
+Linux-5.13.0-51-generic-x86_64-with-debian-bullseye-sid
+Ren'Py 7.4.11.2266
+ 
+
+Bootstrap to the start of init.init took 0.22s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.12s
+Loading script took 1.37s
+Loading save slot metadata. took 0.40s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.15s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rafaelb/.renpy/backups/Trigger World':
+Dump and make backups. took 0.23s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.05s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)'
+Version: '3.0 Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/chapter08.rpy", line 16, in script
+    Desconhecido "{sise=+15}Psis...!{/sise}"
+  File "/home/rafaelb/Público/Renpy/renpy/ast.py", line 721, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/home/rafaelb/Público/Renpy/renpy/exports.py", line 1419, in say
+    who(what, *args, **kwargs)
+  File "/home/rafaelb/Público/Renpy/renpy/character.py", line 1249, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/home/rafaelb/Público/Renpy/renpy/character.py", line 901, in do_display
+    **display_args)
+  File "/home/rafaelb/Público/Renpy/renpy/character.py", line 647, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/home/rafaelb/Público/Renpy/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/rafaelb/Público/Renpy/renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "/home/rafaelb/Público/Renpy/renpy/display/core.py", line 3839, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/home/rafaelb/Público/Renpy/renpy/display/core.py", line 2565, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/rafaelb/Público/Renpy/renpy/display/layout.py", line 826, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/rafaelb/Público/Renpy/renpy/display/layout.py", line 826, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/rafaelb/Público/Renpy/renpy/display/layout.py", line 826, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/rafaelb/Público/Renpy/renpy/display/screen.py", line 688, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/rafaelb/Público/Renpy/renpy/display/layout.py", line 826, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/rafaelb/Público/Renpy/renpy/display/layout.py", line 1264, in render
+    st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/rafaelb/Público/Renpy/renpy/display/layout.py", line 826, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/rafaelb/Público/Renpy/renpy/text/text.py", line 2096, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "/home/rafaelb/Público/Renpy/renpy/text/text.py", line 610, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "/home/rafaelb/Público/Renpy/renpy/text/text.py", line 1259, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag u'sise=+15'
+
+While processing text tag {sise=+15} in u'"{sise=+15}Psis...!{/sise}"'.:
+  File "game/chapter08.rpy", line 16, in script
+    Desconhecido "{sise=+15}Psis...!{/sise}"
+Exception: Unknown text tag u'sise=+15'
+Resetting cache.
+Bootstrap to the start of init.init took 64.07s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.04s
+Loading script took 0.53s
+Loading save slot metadata. took 0.12s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rafaelb/.renpy/backups/Trigger World':
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)'
+Version: '3.0 Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/chapter08.rpy", line 18, in script
+    $renge.pause(1)
+  File "/home/rafaelb/Público/Renpy/renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/rafaelb/Público/Renpy/renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/chapter08.rpy", line 18, in <module>
+    $renge.pause(1)
+NameError: name 'renge' is not defined
+
+While running game code:
+  File "game/chapter08.rpy", line 18, in script
+    $renge.pause(1)
+  File "game/chapter08.rpy", line 18, in <module>
+    $renge.pause(1)
+NameError: name 'renge' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 86.63s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.48s
+Loading save slot metadata. took 0.13s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rafaelb/.renpy/backups/Trigger World':
+Dump and make backups. took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)'
+Version: '3.0 Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 175.95s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.51s
+Loading save slot metadata. took 0.13s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rafaelb/.renpy/backups/Trigger World':
+Dump and make backups. took 0.20s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)'
+Version: '3.0 Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 211.37s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.52s
+Loading save slot metadata. took 0.13s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rafaelb/.renpy/backups/Trigger World':
+Dump and make backups. took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)'
+Version: '3.0 Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 405.16s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.53s
+Loading save slot metadata. took 0.14s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rafaelb/.renpy/backups/Trigger World':
+Dump and make backups. took 0.20s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)'
+Version: '3.0 Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 416.49s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.52s
+Loading save slot metadata. took 0.14s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rafaelb/.renpy/backups/Trigger World':
+Dump and make backups. took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)'
+Version: '3.0 Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 824.68s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.55s
+Loading save slot metadata. took 0.14s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/rafaelb/.renpy/backups/Trigger World':
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)'
+Version: '3.0 Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
