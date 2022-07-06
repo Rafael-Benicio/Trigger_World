@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter08.rpy", line 18, in script
-    $renge.pause(1)
-  File "game/chapter08.rpy", line 18, in <module>
-    $renge.pause(1)
-NameError: name 'renge' is not defined
+IOError: [Errno 2] No such file or directory: '/home/sr_benicio/Documentos/Programa/RenNV/Trigger World/game/saves/persistent.1657076738.tmp'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter08.rpy", line 18, in script
-    $renge.pause(1)
-  File "/home/rafaelb/Público/Renpy/renpy/ast.py", line 928, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/home/rafaelb/Público/Renpy/renpy/python.py", line 2245, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/chapter08.rpy", line 18, in <module>
-    $renge.pause(1)
-NameError: name 'renge' is not defined
+  File "/home/sr_benicio/Público/Renpy/renpy/bootstrap.py", line 331, in bootstrap
+    renpy.main.main()
+  File "/home/sr_benicio/Público/Renpy/renpy/main.py", line 665, in main
+    renpy.persistent.update(True)
+  File "/home/sr_benicio/Público/Renpy/renpy/persistent.py", line 395, in update
+    save()
+  File "/home/sr_benicio/Público/Renpy/renpy/persistent.py", line 411, in save
+    renpy.loadsave.location.save_persistent(data)
+  File "/home/sr_benicio/Público/Renpy/renpy/savelocation.py", line 496, in save_persistent
+    l.save_persistent(data)
+  File "/home/sr_benicio/Público/Renpy/renpy/savelocation.py", line 347, in save_persistent
+    with open(fn_tmp, "wb") as f:
+IOError: [Errno 2] No such file or directory: '/home/sr_benicio/Documentos/Programa/RenNV/Trigger World/game/saves/persistent.1657076738.tmp'
 
-Linux-5.13.0-51-generic-x86_64-with-debian-bullseye-sid
+Linux-5.15.0-40-generic-x86_64-with-debian-bookworm-sid
 Ren'Py 7.4.11.2266
 Trigger World 1.0
-Sun Jun 26 18:28:12 2022
+Wed Jul  6 01:09:04 2022

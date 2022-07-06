@@ -88,13 +88,15 @@ label chapter08:
 
     Nikka "Oi Amiga!"
 
-    show c_nikka at midRight
+    show c_nikka at midRight with dissolve
 
     Eu "Mas...{w} o que vocês todas estão fazendo aqui?"
 
     Nikka "Não é obvio? Nós vamos ao dormitório abandonado"
 
     Eu "Que, dormitório abandonado?"
+
+    show c_alo at midLeft with dissolve
 
     Alo "O que Maria? Já tinha se esquecido dele?"
 
@@ -104,7 +106,7 @@ label chapter08:
 
     Pensamento "Acho que isso já era meio que esperado dessas três, mas..."
 
-    Eu "o que você acha disso? Sophia. E você Hina?"
+    Eu "O que você acha disso? Sophia. E você Hina?"
 
     Narrador "Você olha para as duas"
 
@@ -144,9 +146,7 @@ label chapter08:
 
     Alo "Então por que você espera esse tipo de coisa da {i}Naturalidade{/i}?"
 
-    Nikka "Bem...{w} é porque sou eu.{w} Eu tenho certeza que minha {i}Naturalidade{/i} vai ser algo bem explosivo e taus. Eu vou poder laçar raios de energia,"
-
-    Nikka "E todo tipo de coisa!"
+    Nikka "Bem...{w} é porque sou eu.{w} Eu tenho certeza que minha {i}Naturalidade{/i} vai ser algo bem explosivo e taus. Eu vou poder laçar raios de energia, e todo tipo de coisa!"
 
     Aneti "E alguém da sua família tem alguma Naturalidade do tipo?"
 
@@ -160,9 +160,9 @@ label chapter08:
 
     Eu "Aproposito, visto vocês estão chamando todo mundo, onde estão a Serafina e a Olivia?"
 
-    Aneti "Eu tentei chamar a Olivia, mas ela não respondeu depois de eu bater por algum tempo..."
+    Aneti "Eu tentei chamar a Olivia, mas ela não respondeu mesmo depois de eu bater na porta dela por um...{w} tempo."
 
-    Pensamento "Ela provavelmente tem um sono pesado."
+    Pensamento "Ela provavelmente tem um sono muito pesado pra conseguir ignorar a Aneti."
 
     Aneti "Então, visto que ela não respondia, eu entrei no quarto dela assim mesmo."
 
@@ -182,7 +182,45 @@ label chapter08:
 
     Pensamento "Que estranho."
 
-    Eu "Será que as duas estão juntas?"
+    Nikka "Ela provavelmente deve estar caçando um lugar pra se esconder."
+
+    Eu "Como assim?"
+
+    Sophia "É que um pouco mais cedo teve uma explosão?{w} Um barulho bem alto que veio do quarto dela, agente tentou falar com ela, mas ela não respondeu."
+
+    Aneti "E porque vocês só não entraram?"
+
+    Nikka "É que o quarto dela tem um tipo de magia automatica,{w} essa magia impede qualquer um além do dono do quarto de entrar."
+
+    Hina "Uau!"
+
+    Aneti "De fato, uau!"
+
+    Aneti "Até eu queria um sistema de segurança desse."
+
+    Eu "Quer dizer que isso é uma coisa que só rola no quarto dela em toda a academia?"
+
+    Sophia "Sim, a professora disse que foi uma aluna que dormia lá que colocou essa magia."
+
+    Pensamento "...?"
+
+    Eu "Você quer dizer..."
+
+    Sophia "Sim, a aluna que seria a colega de quarto da Serafina."
+
+    Eu "Que complicado, a aluna coloca uma magia dessa no quarto e desaparece."
+
+    Nikka "Sim, a professora disse que já tentou remove-la, mas ela disse que simplesmente não consegue, porque é como se a magia se refize-se depois de um periodo."
+
+    Hina "Você quer dizer que a professora remove a magia mas ela se refaz?"
+
+    Sophia "Exatamente.{w} E como a professora é a unica que sabe usar ela, agente vai ter que esperar até amanhã pra ver o que rolou no quarto dela. Visto que ele só abre pra quem é o dono"
+
+    Eu "Em suma, ela pode ou não estar no quarto dela e ninguém sabe."
+
+    Sophia "Sim, mas agente tem quase certeza de que não está porque a Serafina não é do tipo que consegue ignorar pessoas a chamando."
+
+    Eu "Hum...{w} Será que ela e a Olivia estão juntas?"
 
     Sophia "Talvez."
 
@@ -687,7 +725,6 @@ label chapter08:
 
     Eu "Mas como ela sabia que nós estamos lá?"
 
-    Alice "Isso é algo que vocês tem que falar com ela. Agora, xó, vão embora daqui.
-    "
+    Alice "Isso é algo que vocês tem que falar com ela. Agora, xó, vão embora daqui."
 
     return
