@@ -124,6 +124,7 @@ Jogo das sombras: Perda de Memorias
     1. [^f_ri]:__Floresta_Rio__
     1. [^f_pr]:__Floresta_Praia__
     1. [^f_ca]:__Floresta_Caverna__
+    1. [^f_ca]:__Floresta_Bifurcação__
     1. [^f_es]:__Floresta_Estrada__
     1. [^f_po]:__Floresta_Ponte__ 
 
@@ -138,6 +139,9 @@ Jogo das sombras: Perda de Memorias
 ---
 1. Floresta Caverna : __bg_f_cav__ [^f_ca]
 !["flo_caverna.png"](./game/images/bg_f_cav.png)
+---
+1. Floresta Bifurcação : __bg_f_bif__ [^f_ca]
+!["flo_bifurcação.png"](./game/images/bg_f_bif.png)
 ---
 1. Floresta Estrada : __bg_f_est__ [^f_es]
 !["flo_estrada.png"](./game/images/bg_f_est.png)
