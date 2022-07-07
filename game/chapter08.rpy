@@ -72,11 +72,11 @@ label chapter08:
 
     Eu "Ah, ai tá você..."
 
-    Aneti "Ai Maria!"
+    Aneti "Iai Maria!"
 
     show c_aneti at center with dissolve
 
-    Lemu "..."
+    Lemu "..." 
 
     Hina "Olá."
 
@@ -106,7 +106,7 @@ label chapter08:
 
     Pensamento "Acho que isso já era meio que esperado dessas três, mas..."
 
-    Eu "O que você acha disso? Sophia. E você Hina?"
+    Eu "O que você acha disso Sophia? E você Hina?"
 
     Narrador "Você olha para as duas"
 
@@ -122,11 +122,13 @@ label chapter08:
 
     Hina "Eu consigo produzir essas labaredas. É uma habilidade que existe na minha família, se chama '{i}Fogo de Raposa{/i}'"
 
+    # TODO IMAGEN DA ALO INTERAGINDO COM FOXFIRE
+
     Alo "Deixa eu ver uma coisa...{w} Uê? Mas não queima?"
 
     Hina "Não, não queima. Infelizmente o {i}Fogo de Raposa{/i} não serve pra queimar coisa."
 
-    Alo "Eh... Então pra que ele serve?"
+    Alo "Eh...{w} Então pra que ele serve?"
 
     Hina "Bem, basicamente ele serve pra exterminar espiritos malignos, mas principalmente, serve pra iluminar."
 
@@ -138,13 +140,13 @@ label chapter08:
 
     Nikka "Quando eu despertar minha {i}Naturalidade{/i} ai sim você vai ver."
 
-    Sophia "Hum...{w} Então você já sabe qual vai ser?"
+    Sophia "Hum...{w} Então você já tem uma ideia de o que vai ser?"
 
     Hina "Exite uma tendencia na sua família como a minha?"
 
     Nikka "Não"
 
-    Alo "Então por que você espera esse tipo de coisa da {i}Naturalidade{/i}?"
+    Alo "Então por que você espera esse tipo de coisa da sua {i}Naturalidade{/i}?"
 
     Nikka "Bem...{w} é porque sou eu.{w} Eu tenho certeza que minha {i}Naturalidade{/i} vai ser algo bem explosivo e taus. Eu vou poder laçar raios de energia, e todo tipo de coisa!"
 
@@ -186,7 +188,7 @@ label chapter08:
 
     Eu "Como assim?"
 
-    Sophia "É que um pouco mais cedo teve uma explosão?{w} Um barulho bem alto que veio do quarto dela, agente tentou falar com ela, mas ela não respondeu."
+    Sophia "É que um pouco mais cedo teve uma explosão?{w} Um barulho bem alto que veio do quarto dela, agente tentou falar com ela, mas na hora ela falou pra não se preocupar."
 
     Aneti "E porque vocês só não entraram?"
 
@@ -224,11 +226,19 @@ label chapter08:
 
     Sophia "Talvez."
 
+    scene bg_i_ceu with slowFade
+
     Narrador "Depois de conversar mais um pouco, o grupo segue seu caminho"
+
+    $renpy.pause(1)
+
+    scene bg_f_est with dissolve
 
     # Elas seguem rumo ao rio
 
     Eu "Agora que eu percebi, a gente está atravessando a ilha inteira."
+
+    show c_aneti at right with dissolve
 
     Aneti "Sim"
 
@@ -240,13 +250,27 @@ label chapter08:
 
     Aneti "Ah, não liga pra isso, não teria graça ir só pra esses lugares."
 
+    show c_nikka at midRight with dissolve
+
     Nikka "Sim, como eu sempre digo, quanto mais gente melhor!"    
+
+    show c_sophia at midLeft with dissolve
 
     Sophia "Exato."
 
-    Hina "Sim, no pior dos casos se o destino em si não for tão legal e não pagar a viajem, a companhia vai."
+    show c_hina at center with dissolve
+
+    Hina "Sim, no pior dos casos, se o destino em si não for tão legal e não pagar a viajem, a companhia vai."
 
     Eu "Isso é isso é uma forma interessante de ver as coisas."
+
+    scene bg_f_est with dissolve
+
+    $renpy.pause(0.5)
+
+    scene bg_f_flo with slowFade
+
+    show c_aneti at center with dissolve
 
     Aneti "Vamos ver...{w} a partir daqui eu nunca fui."
 
@@ -262,17 +286,39 @@ label chapter08:
 
     Lemu "..."
 
+    show c_alo at midLeft with dissolve
+
     Alo "Então vamos lá"
 
-    Alo "Nossa, tá bem escuro aqui."
+    scene bg_f_flo with dissolve
 
-    Hina "Deixa que eu resolvo isso"
+    $renpy.pause(0.5)
 
-    Alo "Nossa, melhorou bastantes."
+    scene bg_i_ceu with fade
+
+    Alo "Nossa, tá dificil aqui, Hina, pode dar uma iluminada aqui?."
+
+    Hina "Pode deixar."
+
+    Alo "Nossa, melhorou bastantes. Valeu"
+
+    scene bg_f_pnt with slowFade
+
+    $renpy.pause(1)
+
+    show c_aneti at center with dissolve
+
+    show c_sophia at right with dissolve
+
+    show c_nikka at midRight with dissolve
+
+    show c_alo at midLeft with dissolve
+
+    show c_hina at left with dissolve
 
     Aneti "Olha lá, uma ponte!"
 
-    Hina "É parece que já faz um bom tempo que ele não é bem cuidada."
+    Hina "É parece que já faz um bom tempo que ela não é bem cuidada."
 
     Sophia "Verdade"
 
@@ -317,6 +363,16 @@ label chapter08:
     Sophia "...{w} ......{w} Tá, de qualquer forma, vamos."
 
     # Aneti pergunta aos animais sobre o Dormitório
+
+    scene bg_f_pnt with dissolve
+
+    $renpy.pause(0.5)
+
+    scene bg_f_est with dissolve
+
+    $renpy.pause(0.5)
+
+    scene bg_f_bif with dissolve
 
     Nikka "Olha gente, tem outra estrada"
 
