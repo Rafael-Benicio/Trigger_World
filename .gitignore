@@ -2,3 +2,5 @@ game/saves*
 game/cache*
 game/images/*.png~
 game/images/*.kra~
+traceback.txt
+log.txt
