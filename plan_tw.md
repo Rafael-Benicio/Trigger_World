@@ -153,6 +153,7 @@ Jogo das sombras: Perda de Memorias
 - Locais
     1. [^Loc]:__Index__
     1. [^int_re]:__Interior_Red__
+    1. [^int_pp]:__Interior_Roxo__
     1. [^ent_vu]:__Entrada_Vulcão__
     1. [^the_vu]:__Vulção__
     1. [^aca_pr]:__Academia_Praia__
@@ -165,6 +166,9 @@ Jogo das sombras: Perda de Memorias
 
 1. Interior Red : __bg_i_red__ [^int_re]
 !["interio_quarto.png"](./game/images/bg_i_red.png)
+---
+1. Interior Roxo : __bg_i_ppl__ [^int_pp]
+!["interior_do_dormitorio_roxo.png"](./game/images/bg_i_ppl.png)
 ---
 1. Entrada Vulcão : __bg_i_evu__ [^ent_vu]
 !["ent_vulcan.png"](./game/images/bg_i_evu.png)
@@ -193,6 +197,7 @@ Jogo das sombras: Perda de Memorias
 1. Céu Noite : __bg_i_ceu__ [^ceu_ni]
 !["ceu_noite.png"](./game/images/bg_i_ceu.png)
 ---
+
 ### Cidade[^L_Cid]
 - Locais
     1. [^Loc]:__Index__
