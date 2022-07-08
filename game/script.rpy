@@ -57,9 +57,11 @@ transform midRight:
 ## Transições
 define slowFade= Fade(1.0, 1.0, 1.0, color="#000") 
 
+define flash = Fade(0.5, 1.0,0.5,color="#fff")
+
 define slowDissolve= Dissolve(1.0)
 
-define flash = Fade(0.5, 1.0,0.5,color="#fff")
+define quickDissolve= Dissolve(0.25)
 
 ## Imagens
 
