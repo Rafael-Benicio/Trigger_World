@@ -1,5 +1,6 @@
 label chapter08:
     # Tarde da noite Aneti aparece no dormitório e chama Maria pra ir
+    stop music  
 
     scene bg_d_red with slowFade
 
@@ -382,7 +383,7 @@ label chapter08:
 
     Aneti "Segundo o Lemu o dormitório está pra aquela direção."
 
-    Pensamento "Não sei se a maior maluquice aqui é a Aneti conversar como o suposto Príncipe dos Lêmures ou se é agente que tá seguindo ela que ouve ele..."
+    Pensamento "Não sei se a maior maluquice aqui é a Aneti conversar como o suposto Príncipe dos Lêmures, ou se é agente que tá seguindo ela que ouve ele..."
 
     Alo "Então é pra lá né?...{w} Só por curiosidade, o que tem pro outro lado?"
 
@@ -422,11 +423,17 @@ label chapter08:
 
     Aneti "Bem, já que foi votado...{w} então vamos pra lá."
 
+    scene bg_d_ppl with slowFade
+
     # O Grupo vai para lá e encontra o dormitório 
 
     Narrador "O grupo fica de frente pra construção"
 
+    show c_nikka at midRight with dissolve
+
     Nikka "Bem... aqui estamos nós, o dormitório abandonado..."
+
+    show c_alo at midLeft with dissolve
 
     Alo "Meio decadente, certamente."
 
@@ -434,13 +441,15 @@ label chapter08:
 
     Alo "Verdade."
 
+    show c_sophia at center with dissolve
+
     Sophia "Mas gente, olhando bem... nem está tão ruim assim, na verdade, ele não me parece ter sido abandonado a tanto tempo."
 
     Eu "Verdade"
 
     Pensamento "Uê? Cade a Hina?"
 
-    Narrador "Você olha em volta e que que ela tinha parado em determinado ponto e observava o dormitório de longe."
+    Narrador "Você olha em volta e vê que ela tinha parado em determinado ponto e observava o dormitório de longe."
 
     Pensamento "O que aconteceu?"
 
@@ -448,13 +457,19 @@ label chapter08:
 
     Hina "Gente, eu acho melhor agente n..."
 
+    show c_aneti at right with dissolve
+
     Aneti "Vamos lá Nikka!"
 
-    Alo "Vem Maria."
+    scene bg_d_ppl with slowFade
+
+    Alo "Vem Maria!"
 
     Pensamento "Algo está de errado com a Hina..."
 
     Eu "Aconteceu algo Hina?"
+
+    show c_hina at center with dissolve
 
     Hina "Eu estou sentindo algo ruim lá dentro...{w} Algo muito pesado."
 
@@ -468,7 +483,9 @@ label chapter08:
 
     # E no dormitório encontra três garotas desmaiadas
 
-    Narrador "De repente Aneti saiu do dormitório abandonado e veio em nossa direção."
+    # Narrador "De repente Aneti saiu do dormitório abandonado e veio em nossa direção."
+
+    show c_aneti at midRight with quickDissolve
 
     Aneti "Hina, Sophia, Maria! Vocês precisam ver isso."
 
