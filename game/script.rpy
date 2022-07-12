@@ -31,7 +31,7 @@ define Kae = Character("Kae (Professora)",kind=Eu,who_color="#a3a")
 # Definições Lemu
 define Lemu = Character("Lemu",kind=Eu,who_color="#0f0")
 # Definições Pensamento
-define Narrador = Character(what_color="#aaa")
+define Narrador = Character(what_color="#bbb")
 # Definições Desconhecido
 define Desconhecido = Character("???",kind=Eu,who_color="#ccc",)
 # Definições Ser-Cosmico
@@ -58,6 +58,8 @@ transform midRight:
 define slowFade= Fade(1.0, 1.0, 1.0, color="#000") 
 
 define flash = Fade(0.5, 1.0,0.5,color="#fff")
+
+define slowFlash = Fade(0.5, 2.5,2.0,color="#fff")
 
 define slowDissolve= Dissolve(1.0)
 
