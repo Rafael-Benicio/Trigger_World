@@ -3,6 +3,7 @@
 1. [^faz]:__TODO__
 1. [^Per]:__Personagens__
 1. [^Mag]:__Magia__
+1. [^Eff]:__Efeito_visual__
 1. [^Loc]:__Locais__
     1. [^Dor]:_Dormitorio_
     1. [^Aca]:_Academia_
@@ -28,6 +29,7 @@ Jogo das sombras: Perda de Memorias
 
 - Devendo imagem de fora da sala
 - Imagem do Lemu
+- Imagem da Alo interagingo com a FoxFire
 
 
 # Nome das personagens[^Per]
@@ -55,7 +57,8 @@ Jogo das sombras: Perda de Memorias
     1. [^cel]:Celia(prof)
     1. [^ali]:Alice(dir)
     1. [^art]:Artemisia(cantina)
-1. [^cid]:__Cidade Null__
+1. [^cid]:__Outros__
+    1. [^thg]:Cosmico
 
 # Magias[^Mag]
 
@@ -67,6 +70,11 @@ Jogo das sombras: Perda de Memorias
 ### Naturalidade
 
 - Nome que se dá a habilidade especifica e inata de uma Bruxa/Maga/Feiticeira
+
+# Effeito Visual [^Eff]
+
+- Efeito de Nelina negra densa:`ef_smk`
+!["ef_smk.png"](./game/images/ef_smk.png)
 
 # Locais[^Loc]
 
@@ -106,7 +114,9 @@ Jogo das sombras: Perda de Memorias
     1. [^ent_ac]:__Entrada_Academia__
     1. [^are_ba]:__Arena_de_Batalha__
     1. [^sal_au]:__Sala_de_aula__
-    1. [^the_en]:__Enfermaria__
+    1. [^the_en]:__Enfermaria__ 
+    1. [^the_di]:__Diretoria__
+
 
 1. Entrada Academia : __bg_a_ent__ [^ent_ac]
 !["ent_academia.png"](./game/images/bg_a_ent.png)
@@ -116,6 +126,8 @@ Jogo das sombras: Perda de Memorias
 !["aula.png"](./game/images/bg_a_aul.png)
 1. Enfermaria : __bg_a_enf__ [^the_en]
 !["enfermaria.png"](./game/images/bg_a_enf.png)
+1. Diretoria : __bg_a_dir__ [^the_di]
+!["diretoria.png"](./game/images/bg_a_dir.png)
 ---
 ### Floresta[^Flo]
 - Locais
@@ -236,6 +248,7 @@ Jogo das sombras: Perda de Memorias
 - [^Sum]:__Sumario__
 
 ### Dor. Vermelho[^Dor_R]
+- [^Per]:__Personagens__
 - Amadi[^ama]
     1. Congo : Nascente Dourada
     2. Exteriotipo: Desconfiada
@@ -259,6 +272,7 @@ Jogo das sombras: Perda de Memorias
     !["Alo.png"](./game/images/c_alo.png)
 ---
 ### Dor. Verde[^Dor_G]
+- [^Per]:__Personagens__
 - Serafina[^ser] 
     1. Italia : Filoart
     2. Exteriotipo: Cuidadosa
@@ -282,6 +296,7 @@ Jogo das sombras: Perda de Memorias
     !["Sophia.png"](./game/images/c_sophia.png)
 ---
 ### Dor. Azul[^Dor_B]
+- [^Per]:__Personagens__
 - Aneti[^ane]
     1. Germaina : Tribo dos Reis
     2. Exteriotipo : Estranha
@@ -307,6 +322,7 @@ Jogo das sombras: Perda de Memorias
     !["Olivia.png"](./game/images/c_olivia.png)
 ---
 ### Dor. Roxo[^Dor_P]
+- [^Per]:__Personagens__
 - Milena[^mil]
     1. Slavos
     2. Exteriotipo: Dupla personalidade: Head Air/ Full foco
@@ -324,6 +340,7 @@ Jogo das sombras: Perda de Memorias
     4. Defeito    : Aparencia é seu preiro filtro
 ---
 ### Membros Academia[^Mem_A]
+- [^Per]:__Personagens__
 - Alice (Diretor)[^ali]
     1. Inglaterra :Cavalar
     2. Exteriotipo:Responsavel
@@ -343,12 +360,16 @@ Jogo das sombras: Perda de Memorias
     4. Defeito    :Não é muito aberta
     !["professora Kae.png"](./game/images/c_kae.png)
 - Artemisia (Cantina)[^art]
-    1. Espanha
-    2. Exteriotipo:
-    3. Qualidade  :
-    4. Defeito    :
+    - ?
+
 ---
-### Cidade[^cid]
+### Outros[^cid]
+- [^Per]:__Personagens__
+- Cosmico (?) [^thg]
+    - Uma entidade que tenta atravessar as dimensões
+    !["Ser cosmico.png"](./game/images/c_thing.png)
+
+
 - Allister (man)
 - Rudd (man)
 - Bega (wom)
