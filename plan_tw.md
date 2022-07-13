@@ -190,7 +190,7 @@ Jogo das sombras: Perda de Memorias
 ---
 1. Academia Praia  : __bg_i_pra__ [^aca_pr]
 !["aca_praia.png"](./game/images/bg_i_pra.png)
---- 
+---
 1. Academia Porto : __bg_i_por__ [^aca_po]
 !["aca_porto.png"](./game/images/bg_i_por.png)
 ---
@@ -381,6 +381,9 @@ Jogo das sombras: Perda de Memorias
 
 Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  | Ação                    | Personagem
 :-----------:|:----:|:------------------------:|:-----------:|:---------------:|:------------------:     |:----------: 
+**cm_mel_2** |-2| Melancolia, fraquesa | Null | Null | Desistindo e lamentando | Null 
+**cm_mel_1** |-1| Melancolia, calma repensando | Null | Null | Contemplando | Null 
+**e_10** |0| Melancolia Calma | Null | Null | Começo depois do fim | Null 
  __cm_reu__  |   1  | Amizade, Calma, Cotidiano| Null        |Entardecer       |Concluindo, Contemplando |Null
  __ev_3__    |   2  | Relaxando, Conclusão     | Informal    |Null             |Troca Amistosa, Conclui..|Null
  __cm_ami_1__|   3  | Casualidade              | Informal    |Manhã, Tarde     |Socializando             |Null
@@ -406,6 +409,7 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
  __t_3__     |  23  | Encurralado, grande risco| Null        |Null             |Desvantagem, Altas aposta|Null
  __t_4__     |  24  | Inimigo revelado, risco  | Null        |Null             |Encarando o perigo       |Null
  __t_5__     |  25  | Reagindo, risco, tenção  | Null        |Null             |Dando tudo de si         |Null
+ **t_6** | 26 | Inimigo, tensão, enfrentamento | Null |Null |Encarando o grande inimigo |Null
 
 # Acontecimentos[^Aco]
 
