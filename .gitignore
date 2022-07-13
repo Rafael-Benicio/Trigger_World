@@ -1,6 +1,7 @@
 game/saves*
 game/cache*
 traceback.txt
+errors.txt
 log.txt
 *.png~
 *.kra~
