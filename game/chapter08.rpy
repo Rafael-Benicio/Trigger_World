@@ -38,7 +38,7 @@ label chapter08:
 
     Pensamento "???"
 
-    Eu "E o que você quer a essas horas?{w} Não me diga que vai sair de novo?"
+    Eu "E o que você quer uma hora dessas?{w} Não me diga que vai sair de novo?"
 
     Eu "Já vou te dizer que não vou ficar te cobrindo como fiz da ultima vez, a professora quase comeu meu figado."
 
@@ -61,6 +61,8 @@ label chapter08:
     Pensamento "Eu vou matar a Alo se não for importante."
 
     Eu "Mas onde é que ela tá?"
+
+    play music e_7 fadein 6
 
     Alo "Maria!{w} Aqui!"
 
@@ -229,6 +231,8 @@ label chapter08:
 
     scene bg_i_ceu with slowFade
 
+    stop music fadeout 4
+
     Narrador "Depois de conversar mais um pouco, o grupo segue seu caminho"
 
     $renpy.pause(1)
@@ -236,6 +240,8 @@ label chapter08:
     scene bg_f_est with dissolve
 
     # Elas seguem rumo ao rio
+
+    play music e_8
 
     Eu "Agora que eu percebi, a gente está atravessando a ilha inteira."
 
@@ -265,6 +271,8 @@ label chapter08:
 
     Eu "Isso é isso é uma forma interessante de ver as coisas."
 
+    stop music fadeout 3
+
     scene bg_f_est with dissolve
 
     $renpy.pause(0.5)
@@ -272,6 +280,8 @@ label chapter08:
     scene bg_f_flo with slowFade
 
     show c_aneti at center with dissolve
+
+    play music e_2
 
     Aneti "Vamos ver...{w} a partir daqui eu nunca fui."
 
@@ -421,6 +431,8 @@ label chapter08:
 
     Eu "Eu concordo com a Sophia, a gente deveria voltar a nossa programação padrão."
 
+    stop music fadeout 3
+
     Aneti "Bem, já que foi votado...{w} então vamos pra lá."
 
     scene bg_d_ppl with slowFade
@@ -428,6 +440,8 @@ label chapter08:
     # O Grupo vai para lá e encontra o dormitório 
 
     Narrador "O grupo fica de frente pra construção"
+
+    play music e_4
 
     show c_nikka at midRight with dissolve
 
@@ -487,19 +501,35 @@ label chapter08:
 
     show c_aneti at midRight with quickDissolve
 
+    stop music fadeout 3
+
     Aneti "Hina, Sophia, Maria! Vocês precisam ver isso."
 
-    Narrador "As garotas olharam entre si, então seguiram Aneti pra dentro do dormitório"
+    # Escolha
+
+    Narrador "Vocês três olharam entre si, e percebendo a seriededade na expressão de Aneti, vocês decidem a seguir pra dentro do dormitório"
+
+    scene bg_i_ppl with slowFade    
+
+    play music e_6
 
     Narrador "Ao entrar, você vê três garotas desacordadas no chão do dormitório"
 
+    show c_hina at center with quickDissolve
+
     Hina "Isso é..."
+
+    show c_nikka at left with dissolve
 
     Nikka "Sim, a gente achou elas aqui quando entramos."
 
     Eu "Mas quem são elas?"
 
-    Aneti "Eu não sei, nunca as vi."
+    show c_aneti at midLeft with dissolve
+
+    Aneti "Eu não sei, nunca vi elas na academia."
+
+    show c_sophia at midRight with dissolve
 
     Sophia "Será que são alunas?"
 
@@ -517,19 +547,31 @@ label chapter08:
 
     Alo "Sim, vamos lá"
 
-    Narrador "Alo e Sophia foram rumo a entrada, porém..."
+    Narrador "Alo e Sophia seguem apressadas rumo a entrada,{w} porém..."
 
     Hina "PAREM!!!"
+
+    stop music fadeout 3
 
     # Som de explosão
 
     # Uma sombra negra diz que pra tirar elas dali teria que passar por cima dela e todos são rendidos
 
-    Narrador "De repente, assim que Alo e Sophia se aproximaram da porta, o ambiente da sala mudou, o local se tornou gelado uma neblina preencheu o ambiente"
+    scene bg_i_ppl with quickDissolve
 
-    Narrador "A neblina era negra, preenchia toda a área e tornava a visão impossível."
+    $renpy.pause(0.5)
+
+    show ef_smk with slowDissolve
+
+    play music t_1
+
+    Narrador "De repente, assim que Alo e Sophia se aproximaram da porta, o ambiente da sala mudou, o local se tornou gelado e uma neblina preencheu o ambiente"
+
+    Narrador "A neblina negra, preenchia toda a área e tornava a visão impossível."
 
     Narrador "Você sente um grande peso sobre seu corpo, seus sentidos vão desvanecendo e sua visão se torna uma incógnita..."
+
+    show c_thing at center with slowDissolve
 
     Cosmico "“ø©°nøæßæ→®æðæ/↓→©øµ“→ðæ°°↑ŧøµæ®°→øß°↓©ø®þø°ð°ßŧ®↓→®°→ŧøðøøß°↓µ↓nðø"
 
@@ -543,36 +585,47 @@ label chapter08:
 
     Cosmico "“ø©~°´° ®→ß→“°ł ©®→ŧæŧ↓®æ µ°ð→ø©®°"
 
+    stop music fadeout 6
+
     # Hina salva todos ali librando uma luz
-    Narrador "Sua visão vai desvanecendo e se torna escura, porém..."
+    Narrador "Sua visão vai desvanecendo e se torna escura, porém..." 
+
+    scene bg_d_ppl with slowFlash
 
     # Quando acorda todos estão fora do dormitório
     Narrador "Você sente sua cabeça girar e girar"
 
     Pensamento "Onde eu estou?..."
 
-    Narrador "Não não sente mais aquela pressão esmagando seu corpo e você consegue sentir a brisa e o ar fresco da floresta."
+    Narrador "Você não sente mais aquela pressão esmagando seu corpo e você consegue sentir a brisa e o ar fresco da floresta."
 
     # Além de Hina, Estava professora Kae e a Diretora Alice e Olivia
+
+    show c_kae at midRight with dissolve
+
     Kae "Hum...{w} você acordou?"
 
     Eu "Professora Kae...?"
 
     Kae "Sim, sou eu?"
 
+    show c_alice at center with dissolve
+
     Alice "Há, Maria! Que bom que acordou..."
 
     Eu "Diretora...?"
 
-    Alice "Exato?"
+    Alice "Exato!"
 
-    Alice "Maria...{w} sei que você só acabou de acordar, mas que estou muito curiosa pra pra saber o que você e suas amigas estava fazendo aqui..."
+    Alice "Maria...{w} sei que você só acabou de acordar, mas que estou muito curiosa pra saber o que você e suas amigas estavam fazendo aqui..."
 
     Eu "No..."
 
     Alice "Não fale, descanse. Amanhã nós falamos sobre isso."
 
     # Alguns foram dali para a Enfermaria
+
+    scene black with slowFade
 
     Narrador "Depois daquilo você perdeu a consciência novamente."
 
@@ -582,19 +635,29 @@ label chapter08:
 
     Eu "?"
 
+    scene bg_a_enf with slowDissolve
+
     Desconhecido "Ela acordou gente!"
 
     Eu "Alo?"
 
+    show c_alo at midLeft with dissolve
+
     Aneti "Maria!"
+
+    show c_aneti at center with dissolve
 
     Eu "Aneti?"
 
     Sophia "Que bom que acordou Maria"
 
+    show c_sophia at midRight with dissolve
+
     Eu "Sophia"
 
     Nikka "Que bom que você acordou"
+
+    show c_nikka at left with dissolve
 
     Eu "Nikka..."
 
@@ -616,15 +679,19 @@ label chapter08:
 
     Aneti "Maria...{w} a Hina..."
 
+    play music cm_mel_2
+
     Eu "A Hina?{w} O que aconteceu com ela?"
 
-    Aneti "Ela está em coma e segundo a professora Kae ela não vai acordar tão cedo."
+    Aneti "Bem...{w} ela...{w} inda está desacordada e...{w}a professora Kae me disse que não sabe ao certo se ela irá acordar...{w} tão cedo."
 
     Eu "O que...?"
 
     Aneti "A..."
 
     Alice "Vocês acordaram então?"
+
+    show c_alice at right with slowDissolve
 
     Eu "Diretora?"
 
@@ -634,15 +701,27 @@ label chapter08:
 
     Alice "Isso não me importa, vocês estava muito bem ontem pra ficar explorando onde não deviam."
 
+    stop music fadeout 4
+
     Alice "Se não quiserem ser chutadas dessa Academia, venham agora."
 
-    Narrador "Todas olham entre si então seguem a diretora"
+    Narrador "Todas olham entre si, então seguem a diretora"
 
     # ---- Na diretoria
+
+    scene bg_a_enf with slowDissolve
+
+    scene bg_a_dir with slowFade
+
+    show c_alice at center with slowDissolve
+
+    play music e_3 fadein 6
 
     Alice "Primeiro de tudo, eu gostaria de perguntar o que vocês estava fazendo naquela área da ilha?"
 
     Alice "Se me lembro bem, logo no primeiro dia eu havia avisado para ficarem longe do noroeste da ilha."
+
+    show c_aneti at midRight with dissolve
 
     Aneti "Professora...{w}Isso foi minha culpa... foi eu quem chamou todo mundo pra ir lá."
 
@@ -650,7 +729,13 @@ label chapter08:
 
     Alo "Não..."
 
+    show c_alo at left with dissolve
+
+    show c_sophia at midLeft with dissolve
+
     Sophia "Deforma nenhuma Aneti..."
+
+    show c_nikka at right with dissolve
 
     Nikka "Nós fomos lá por vontade própria"
 
@@ -658,9 +743,15 @@ label chapter08:
     
     Alice "Ainda bem que vocês entendem isso."
 
-    Alice "A punição de vocês quatro será ajudar na limpeza da cantina depois das aulas."
+    Alice "A punição de vocês quatro será ajudar na limpeza da cantina depois das aulas a partir de amanhã."
 
-    Eu "Ha???"
+    "..."
+
+    "......"
+
+    "........."
+
+    Eu "Hã???"
 
     Alo "Que?"
 
@@ -674,23 +765,35 @@ label chapter08:
 
     Alice "Se vocês resolverem ir embora de repente daqui, problema seus, se vocês forem se matar indo ao vulcão é problemas seus, entenderam?"
 
-    Alice "Bem, de qualquer forma, eu chamei vocês aqui pra falar sobre aquelas três garotas em coma na enfermaria"
+    Alice "Sua amiga Hina é um exemplo disso, se vocês querem se apresentar como responsáveis, façam isso com ela, não comigo."
 
-    Alice "Eu queria saber onde vocês as encontraram?"
+    Aneti "..."
 
-    Aneti "Nós as encontramos no dormitório abandonado...{w} Quando entramos elas já estavam lá caídas no chão..."
+    Sophia "..."
+
+    Eu "..."
+
+    Nikka "..."
+
+    Alice "Bem, falando sobre pessoas em coma{w}, eu chamei vocês aqui, não pra falar de sua amiga, mas pra falar sobre aquelas três garotas em coma na enfermaria"
+
+    Alice "Eu queria saber onde vocês as encontraram e porque elas estavam com vocês quando as encontramos?"
+
+    Aneti "Nós as achamos no dormitório abandonado...{w} Quando entramos elas já estavam lá caídas no chão..."
 
     Eu "Você sabe quem são diretora?"
 
-    Alice "É claro que sei, só entra e encontra no mar essa academia as pessoa quem eu aceito como alunas aqui."
+    Alice "É claro que sei, só entra e encontra no mar essa academia as pessoa quem eu aceito, vocês por exemplo como alunas, Kae como professora."
 
     Sophia "Isso quer dizer..."
 
     Alice "Sim, aquelas são três alunas dessa academia."
 
-    Aneti "Mas o que elas estavam fazendo no dormitório abandonado?"
+    Pensamento "Alunas...{w} mas eu nunca as vi antes..."
 
-    Alice "Isso que eu queria saber de vocês."
+    Aneti "Mas... o que elas estavam fazendo no dormitório abandonado?"
+
+    Alice "Isso era o que eu esperava ouvir de vocês."
 
     # A três que foram achadas no dormitório e estão todas em coma
 
@@ -702,13 +805,13 @@ label chapter08:
 
     Sophia "Isso quer dizer que elas sairão da ilha escondidas e entraram aqui sem ninguém saber pra ir no dormitório abandonado?"
 
-    Alice "Isso é tolice e também o que mais me intriga."
+    Alice "Bem. Isso é uma tolice, e também o que mais me intriga."
 
-    Alice "Como disse, ninguém entra ou sai da academia sem que eu saiba,"
+    Alice "eu tenho o poder de conceder e revogar a permissão de alguém atravessar a barreira que cerca a ilha."
 
-    Alice "eu tenho o poder de conceder o revogar a permissão de alguém atravessar a barreira que cerca a ilha."
+    Alice "E disse, ninguém entra ou sai da academia sem que eu saiba, se alguém entrasse, seja aluna, professor ou qualquer coisa do tipo, eu saberia."
 
-    Nikka "Você está dizendo que até ontem elas tinham simplesmente...{w} Sumido?"
+    Nikka "Você está dizendo que até ontem, elas três tinham simplesmente...{w} Sumido?"
 
     Narrador "..."
 
@@ -720,11 +823,11 @@ label chapter08:
 
     Alice "Eu também não sei, mas se vocês não sabem de nada então não há mais o que conversar."
 
-    Aneti "Mas Diretora... e quanto a Hina?"
-
-    Alice "Pelo que eu ouvi do estado dela, ela vai ficar em coma por tempo indeterminado. Vai tudo depender da sorte dela."
+    Aneti "Mas Diretora...{w} e quanto a Hina?"
 
     Alice "Agradeçam, por que vocês deram uma sorte que ela não teve."
+
+    Alice "Pelo que eu ouvi do estado dela, ela vai ficar em coma por tempo indeterminado. Vai tudo depender da sorte dela."
 
     Eu "Será..."
 
@@ -748,13 +851,17 @@ label chapter08:
 
     Alice "Tá, e...{w} como era essa 'Coisa'?"
 
-    Narrador "As meninas se entre olharam, mas demoraram a falar novamente"
+    Narrador "As meninas se entre olharam, e demoraram a falar novamente"
 
-    Eu "Eu... não conseguir ver a coisa devido a uma nevoa que encheu toda minha visão"
+    Eu "Eu... não conseguir ver a coisa devido a uma nevoa escurar"
+
+    Alice "Nevoa?"
+
+    Aneti "Sim, um tipo de fumaça que encheu todo o dormitório."
 
     Sophia "Foi a mesma coisa comigo, eu só consegui ver vultos."
 
-    Alo "Eu também, além disso a coisa falava mas eu não entedia nada do que ela falava..."
+    Alo "Eu também, além disso a coisa falava, mas eu não entedia nada do que ela falava..."
 
     Aneti "Sim, ela falava em uma linguagem esquisita, impossível de entender até os sons."
 
@@ -764,9 +871,9 @@ label chapter08:
 
     Eu "Sim. E talvez seja ela que esteja também por trás do desparecimento dessas três garotas"
 
-    Narrador "A Diretora deu um suspiro"
+    Narrador "Alice suspira"
 
-    Alice "Deixe-me ver, vocês querem que eu acredite quem uma coisa que vocês não ouviram, tocaram ou viram está por trás de tudo isso?."
+    Alice "Deixe-me ver, vocês querem que eu acredite quem uma coisa que vocês não ouviram, tocaram ou viram está por trás de tudo isso?"
 
     Sophia "..."
 
@@ -776,13 +883,15 @@ label chapter08:
 
     Eu "..."
 
-    Alice "Deixe-me repetir algo de falei no primeiro dia de vocês aqui na academia."
+    Alice "Deixe-me repetir algo de falei no primeiro dia de vocês aqui na academia, mas parece que já se esqueceram por completo."
 
     Alice "O motivo daquela área não ser mais usada é porque lá há gases tóxicos,"
 
-    Alice "gases esses que podem causar alucinações como vocês pelo visto experimentaram ou coma...{w} como a amiga de vocês está experimentando."
+    Alice "gases esses que podem causar alucinações, como pelo visto, experimentaram, ou coma...{w} como a amiga de vocês está experimentando."
 
     Alice "De qualquer forma. Estão todas dispensadas, voltem pra enfermaria... ou vão pra onde quiserem."
+
+    stop music fadeout 5
 
     Eu "Mas Diret..."
 
@@ -790,9 +899,9 @@ label chapter08:
 
     Eu "Eu... ouvi..."
 
-    Alice "Aproposito, vocês deveriam ira fazer com sua colega, a Olivia."
+    Alice "Aproposito, vocês deveriam ir agradecer com sua colega, a Olivia."
 
-    Aneti "A Olivia?"
+    Alo "A Olivia?"
 
     Alice "Sim, foi ela quem chamou todo mundo pra socorrer vocês quando estavam lá no dormitório abandonado"
 
