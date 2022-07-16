@@ -16,11 +16,15 @@
 
 # Rotas
 
+### Geral
+- Serafina sempre desaparece após a noite do capitulo08
+
 ### Vermelho
 - A professora: A professora tenta sacreficar Olivia pra trazer a escuridão da outra dimensao
 
 ### Azul
 - A ex-aluna: Uma das alunas que seriam encontradas no dormitorio abandonado entra no dormitorio verde como colega de quarto da Serafina, e controla a mente deles. A professoara salva as garotas
+- Ponto principal: No capitulo 8, as garotas não vão ao dormitorio abandonado
  
 ### Verde
 - A outra dimensão: Serafina em seus estudo acaba indo com Maria pra uma outra dimensão...(ideia crua)

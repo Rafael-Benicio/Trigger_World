@@ -20,6 +20,7 @@
     1. [^ch6]:_Chapter06_
     1. [^ch7]:_Chapter07_
     1. [^ch8]:_Chapter08_
+    1. [^ch9]:_Chapter09_
 
 Jogo das sombras: Perda de Memorias
 
@@ -250,21 +251,22 @@ Jogo das sombras: Perda de Memorias
 ### Dor. Vermelho[^Dor_R]
 - [^Per]:__Personagens__
 - Amadi[^ama]
-    1. Congo : Nascente Dourada
+    1. Lugar : Nascente Dourada
     2. Exteriotipo: Desconfiada
     3. Qualidade  : Cuida de quem considera proximo
     4. Defeito    : Acaba criando barreiras contra desconhecidos
     5. Imagem:
     !["Amadi.png"](./game/images/c_amadi.png)
 - Yun[^yun]
-    1. China : Império Preto e Branco 
+    1. Lugar : Império Preto e Branco 
     2. Exteriotipo: Desatenta
     3. Qualidade  : Sencera sobre o que pensa
     4. Defeito    : esquece de obserava o ambiente
-    5. Imagem:
+    5. Curiosidade: Personalidade varia conforme o sono
+    6. Imagem:
     !["Yun.png"](./game/images/c_yun.png)
 - Alo[^alo]
-    1. Latina : Floresta Vermelha
+    1. Lugar : Floresta Vermelha
     2. Exteriotipo: Sempre animada
     3. Qualidade  : Não se abate pela realidade
     4. Defeito    : Autodeprecia-se
@@ -274,21 +276,21 @@ Jogo das sombras: Perda de Memorias
 ### Dor. Verde[^Dor_G]
 - [^Per]:__Personagens__
 - Serafina[^ser] 
-    1. Italia : Filoart
+    1. Lugar : Filoart
     2. Exteriotipo: Cuidadosa
     3. Qualidade  : Tenta ajudar todos a alcançar exelencia
     4. Defeito    : É exigente
     5. Imagem:
     !["Serafina.png"](./game/images/c_serafina.png)
 - Nikka[^nik]
-    1. Russia : Imperio Gelado
+    1. Lugar : Imperio Gelado
     2. Exteriotipo: Coragoso
     3. Qualidade  : Alegre e gosta de historias e trotes
     4. Defeito    : Não gosta de quem não se abre
     5. Imagem:
     !["Nikka.png"](./game/images/c_nikka.png)
 - Sophia[^sop]
-    1. Gracia : Vale dos Sábios
+    1. Lugar : Vale dos Sábios
     2. Exteriotipo: Inteligente
     3. Qualidade  : Gosta de artes
     4. Defeito    : Detesta qualquer tipo de conflito
@@ -298,7 +300,7 @@ Jogo das sombras: Perda de Memorias
 ### Dor. Azul[^Dor_B]
 - [^Per]:__Personagens__
 - Aneti[^ane]
-    1. Germaina : Tribo dos Reis
+    1. Lugar : Tribo dos Reis
     2. Exteriotipo : Estranha
     3. Qualidade   : ama animais e Criativa
     4. Defeito     : Estranha e imprevisivel
@@ -306,7 +308,7 @@ Jogo das sombras: Perda de Memorias
     6. Imagem:
     !["Aneti.png"](./game/images/c_aneti.png)
 - Hina[^hin]
-    1. Japão - (Kitsune) : Ilha do Sol
+    1. Lugar : Ilha do Sol
     2. Exteriotipo : Elegante
     3. Qualidade   : Curiosa
     4. Defeito     : Não entende as pessoas e Timida
@@ -314,7 +316,7 @@ Jogo das sombras: Perda de Memorias
     6. Imagem:
     !["Hina.png"](./game/images/c_hina.png)
 - Olivia[^oli]
-    1. Estadunidence : Império da Pirâmide
+    1. Lugar : Império da Pirâmide
     2. Exteriotipo : Individualista
     3. Qualidade   : Força de Vontade e Corajosa
     4. Defeito     : Inconsequente e Medo de parecer fraca
@@ -342,19 +344,19 @@ Jogo das sombras: Perda de Memorias
 ### Membros Academia[^Mem_A]
 - [^Per]:__Personagens__
 - Alice (Diretor)[^ali]
-    1. Inglaterra :Cavalar
+    1. Lugar :Cavalar
     2. Exteriotipo:Responsavel
     3. Qualidade  :Age pensando no bem das alunas
     4. Defeito    :Pouco aberta a falar
     !["diretora Alice.png"](./game/images/c_alice.png)
 - Celia (Professora)[^cel]
-    1. França     :Artui
+    1. Lugar:Artui
     2. Exteriotipo:Persquisadora 
     3. Qualidade  :Conhece muito
     4. Defeito    :Pouco exigente
     !["professora celia.png"](./game/images/c_celia.png)
 - Kae (Professora)[^kae]
-    1. Korea
+    1. Lugar: ?
     2. Exteriotipo:Sem grandes emoçoes
     3. Qualidade  :Taletosa na magia
     4. Defeito    :Não é muito aberta
@@ -551,13 +553,13 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
 
     > A Trez que foram achadas no dormitorio e estão todas em coma
 
-- A mulher da cantina __(Chapter09)__
+- A mulher da cantina __(Chapter09)__[^ch9]
 
-    > Dois dias depois, apos a aula, o grupo vai para a cantina onde o grupo vai comer
+    > Um dias depois, apos a aula, o grupo vai para a cantina onde o grupo vai comer
 
     > Elas falam sobre o que aconteceu
 
-    > Hina fala que foi Olivi quem falou pros professores do sumisso delas.
+    > Aneti fala que foi Olivi quem falou pros professores do sumisso delas.
 
     > Comentam que Olivia parece proxima a mulher da cantina e Sophia diz que viu ela mais cedo ajundao ela a empurrara um caminhão
 
