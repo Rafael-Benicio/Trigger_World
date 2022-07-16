@@ -909,4 +909,4 @@ label chapter08:
 
     Alice "Isso é algo que vocês tem que falar com ela. Agora, xó, vão embora daqui."
 
-    return
+    jump chapter09
