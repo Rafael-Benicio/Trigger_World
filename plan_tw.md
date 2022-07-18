@@ -31,6 +31,8 @@ Jogo das sombras: Perda de Memorias
 - Devendo imagem de fora da sala
 - Imagem do Lemu
 - Imagem da Alo interagingo com a FoxFire
+- Aula onde a professora Celia ensina bloqueio de maldição
+- Fazer uma imagem pra mulher da Cantina
 
 
 # Nome das personagens[^Per]
@@ -569,11 +571,11 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
 
     > Nikka vence sendo promovida ao Dorm Azul e Olivai rebicada
 
-    > Olivia fiva puta
+    > Olivia Vai pro quarto de Serafina que está vago
 
     > Dias se passaram
 
-    > É falado que Olivia não está se dando bem no dormitorio Verde
+    > É falado que Olivia fala do medalhão que ela encontrou
 
     > É falado que a aparencia ruim dela no momento se devia a ela estava estudnado para subir noavamente
 
@@ -589,7 +591,6 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
 
     > Durante a noite aparecem :
 
-        Hina
         Nikka
         Aneti
         Alo
@@ -607,15 +608,11 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
 
     > Celia, a sequestradora se revela, totalmente esquisita e alterada
 
-    > Celia conta que fez tudo aquilo pra poder isolar Olivia
-
-    > Ela diz que faz aquilo pra poder alcaçar a verdadeira magia e criar a gema mistica verdadeira que a tornaria em uma verdadeira maga, e não precisaria de algo como uma varinha. 
-
-    >Além disso ela poderia fazer até magias a muito esquecidas, como magias dimencionais.
+    > Celia alterada diz que está tentando trazer algo pra esse mundo
 
     > O grupo é novamente cercado pela escuridão e é nocalteado, eles continuam conscientes por essa ser bem mais fraca
 
-    > E agora eles veem, Hina emana uma luz e começa a lutar contra a professora.
+    > As alunas se livram da escuridão
 
     > Você vai lá e com toda as força do seu corpo tenta fazer Olivia despertar do tranze.
 
@@ -631,7 +628,11 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
 
     > Fala do fato da professora Celia estar em coma agora
 
-    > O Grupo a perdoa final feliz
+- As Ex-Integrantes do Dormitorio Roxo
+
+- O Outro Mundo
 
 
-- Torneio inter Escolar
+- Destruição do Portal
+
+    > Maria e Companhia destrõem o metodo que o 'Ser' está usando pra tentar abrir uma bracha entre as dimensões
