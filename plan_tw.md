@@ -2,25 +2,12 @@
 
 1. [^faz]:__TODO__
 1. [^Per]:__Personagens__
+1. [^Con]:__Conseitos__
 1. [^Mag]:__Magia__
 1. [^Eff]:__Efeito_visual__
 1. [^Loc]:__Locais__
-    1. [^Dor]:_Dormitorio_
-    1. [^Aca]:_Academia_
-    1. [^Flo]:_Floresta_
-    1. [^Are_Aca]:_Área_Academia_
-    1. [^L_Cid]:_Cidade_
 1. [^M_Tem]:__Musica_tema__
 1. [^Aco]:__Acontecimentos__
-    1. [^ch1]:_Chapter01_
-    1. [^ch2]:_Chapter02_
-    1. [^ch3]:_Chapter03_
-    1. [^ch4]:_Chapter04_
-    1. [^ch5]:_Chapter05_
-    1. [^ch6]:_Chapter06_
-    1. [^ch7]:_Chapter07_
-    1. [^ch8]:_Chapter08_
-    1. [^ch9]:_Chapter09_
 
 Jogo das sombras: Perda de Memorias
 
@@ -33,6 +20,21 @@ Jogo das sombras: Perda de Memorias
 - Imagem da Alo interagingo com a FoxFire
 - Aula onde a professora Celia ensina bloqueio de maldição
 - Fazer uma imagem pra mulher da Cantina
+- Escurecer os olhos de Alo(Muito vibrantes, ruim de olhar)
+
+# Conseitos[^Con]
+
+### Frente Magica:
+- Organização que controla/supervisiona os Feiticeiros/Bruxas/Magos e instituições relacionadas a magia
+
+### Coração Magico:
+- Objeto com o qual é possivel moldar avontade
+- Usado para impulsionar a força de Magias através da criação de uma varinha para a maior canalisação do Magia.
+- Usada para Criação de Vassoura Voadora
+- Pode ser manipulador no ar dependendo a proficiencia de seu proprietario nessa habilidade
+
+### Multiverso:
+- Existem multiplas realidades, multiplos universos que podem ser acessados atraves de magias dimensionais 
 
 
 # Nome das personagens[^Per]
@@ -417,9 +419,24 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
 
 # Acontecimentos[^Aco]
 
+### Index[^Hap]
+
 - [^Sum]:__Sumario__
+    1. [^ch1]:_Chapter01_
+    1. [^ch2]:_Chapter02_
+    1. [^ch3]:_Chapter03_
+    1. [^ch4]:_Chapter04_
+    1. [^ch5]:_Chapter05_
+    1. [^ch6]:_Chapter06_
+    1. [^ch7]:_Chapter07_
+    1. [^ch8]:_Chapter08_
+    1. [^ch9]:_Chapter09_
+    1. [^ch10]:_Chapter10_
+
 
 - Chegada na cidade __(Chapter01)__[^ch1]
+    1. [^Hap]:__Index__
+
     > Chega na cidade de trem
 
     > Passa pela cidade
@@ -433,6 +450,8 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
     > Pedem informação e assim encontram o porto
 
 - Embarcar no Navio __(Chapter02)__[^ch2]
+    1. [^Hap]:__Index__
+
     > Você pode conversar com outras personagens
 
         Amadi
@@ -447,6 +466,8 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
     > Chega na academia é levada até a arena de Batalha
 
 - Teste de Classificação __(Chapter03)__[^ch3]
+    1. [^Hap]:__Index__
+
     > Explica sobre os Dormitorios
 
     > Recebe Varinhas e explica como elas funcionam
@@ -456,13 +477,15 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
     > Após o teste recebe o dormitorio e o Quarto
 
 - Dormitorio __(Chapter04)__[^ch4]
-
+    1. [^Hap]:__Index__
+    
     > Uma das professora leva o grupo ater o dormitorio
 
     > Interage com as colegas de Dormitorio
 
 - Primeiros dias de Aula __(Chapter05)__[^ch5]
-
+    1. [^Hap]:__Index__
+    
     > Na entrada da Academia Anete conta que um passaro contou pra ela que ha mais outro dormitorio
 
     > Aula de voo com vassoura
@@ -484,7 +507,8 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
     > Professora fala sobre o quarto dormitorio
 
 - Battle Royal de Dorms __(Chapter06)__[^ch6]
-
+    1. [^Hap]:__Index__
+    
     > No dia seguinte a professora escolhe alunos de cada domitorio para participar de corridas
 
     > Corrida 1
@@ -514,7 +538,8 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
     > Pos aula
 
 - O Principe dos Lêmures __(Chapter07)__[^ch7]
-
+    1. [^Hap]:__Index__
+    
     > Duranate um aula de sapologia Aneti beija um sapo que se transasorma em um lemure
 
     > A professora da um tempo na Aula
@@ -524,7 +549,8 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
     > Aneti pega o Lemure como pet
 
 - O Dormitorio Abandonado __(Chapter08)__[^ch8]
-
+    1. [^Hap]:__Index__
+    
     > Tarde da noite Aneti aparece no doritorio e chama Maria pra ir
 
     > Está ali
@@ -556,7 +582,8 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
     > A Trez que foram achadas no dormitorio e estão todas em coma
 
 - A mulher da cantina __(Chapter09)__[^ch9]
-
+    1. [^Hap]:__Index__
+    
     > Um dias depois, apos a aula, o grupo vai para a cantina onde o grupo vai comer
 
     > Elas falam sobre o que aconteceu
@@ -565,8 +592,9 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
 
     > Comentam que Olivia parece proxima a mulher da cantina e Sophia diz que viu ela mais cedo ajundao ela a empurrara um caminhão
 
-- Rebaixamento de Dormitorio __(Chapter10)__
-
+- Rebaixamento de Dormitorio __(Chapter10)__[^ch10]
+    1. [^Hap]:__Index__
+    
     > Alguns dias depois é proposto pela professoara Celia um duelo entre Olivia e Nikka
 
     > Nikka vence sendo promovida ao Dorm Azul e Olivai rebicada
@@ -579,16 +607,18 @@ Musica       |Tensão| Sentimento               | Formalidade | Momento do Dia  
 
     > É falado que a aparencia ruim dela no momento se devia a ela estava estudnado para subir noavamente
 
-- Enfermaria __(Chapter11)__
-
+- Enfermaria __(Chapter11)__[^ch11]
+    1. [^Hap]:__Index__
+    
     > Naquele dia a tarde as meninas vão até a enfermaria pra ver as 3 garotas em coma
 
     > Uma das garotas acorada
 
     > Depois  de uma conversa a garota diz que o motivo dela está naqueele estado era a professoara Celia
 
-- O Sequestro do Vulcão __(Chapter12)__
-
+- O Sequestro do Vulcão __(Chapter12)__[^ch12]
+    1. [^Hap]:__Index__
+    
     > Durante a noite aparecem :
 
         Nikka
