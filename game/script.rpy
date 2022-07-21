@@ -27,7 +27,7 @@ define Alice = Character("Alice (Diretora)",kind=Eu,who_color="#fca7ff")
 # Definições Professora Celia
 define Celia = Character("Célia (Professora)",kind=Eu,who_color="#ff4949")
 # Definições Mulher da Cantina
-define Artemisia = Character("Artemisia (Cantina)",kind=Eu,who_color="#30f9f9")
+define Artemisia = Character("Artemísia (Cantina)",kind=Eu,who_color="#30f9f9")
 # Definições Professora Celia
 define Kae = Character("Kae (Professora)",kind=Eu,who_color="#a3a")
 # Definições Lemu
