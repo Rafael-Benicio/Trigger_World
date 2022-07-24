@@ -121,6 +121,7 @@ Jogo das sombras: Perda de Memorias
     1. [^sal_au]:__Sala_de_aula__
     1. [^the_en]:__Enfermaria__ 
     1. [^the_di]:__Diretoria__
+    1. [^the_st]:__Cantina__
 
 
 1. Entrada Academia : __bg_a_ent__ [^ent_ac]
@@ -133,6 +134,8 @@ Jogo das sombras: Perda de Memorias
 !["enfermaria.png"](./game/images/bg_a_enf.png)
 1. Diretoria : __bg_a_dir__ [^the_di]
 !["diretoria.png"](./game/images/bg_a_dir.png)
+1. Cantina : __bg_a_str__ [^the_st]
+!["Cantina.png"](./game/images/bg_a_str.png)
 ---
 ### Floresta[^Flo]
 - Locais
@@ -366,6 +369,7 @@ Jogo das sombras: Perda de Memorias
     4. Defeito    :Não é muito aberta
     !["professora Kae.png"](./game/images/c_kae.png)
 - Artemisia (Cantina)[^art]
+    !["Mulher da Cantina.png"](./game/images/c_artemisia.png)
     - ?
 
 ---
